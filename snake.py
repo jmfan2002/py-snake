@@ -1,8 +1,3 @@
-# Name: Pygame Snake
-# Author: Jia Ming Fan, Patrick Ancheta
-# Course: The Woodlands School, ICS3U0
-# Purpose: Plays snake in pygame
-
 import pygame
 import random as r
 
@@ -23,10 +18,8 @@ clock = pygame.time.Clock()
 screen = pygame.display.set_mode([800, 800])
 scoreFont = pygame.font.SysFont('Comic Sans MS', 50)
 startFont = pygame.font.SysFont('Comic Sans MS', 170)
-backgroundMusic = pygame.mixer.Sound("iceFishing.wav")
 foodSound = pygame.mixer.Sound("boop.wav")
 deadSound = pygame.mixer.Sound("dead.wav")
-backgroundMusic.play(-1)
 
 # global variables
 board = {}
